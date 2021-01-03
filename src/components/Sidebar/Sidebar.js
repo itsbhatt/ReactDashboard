@@ -131,7 +131,7 @@ const Sidebar = () => {
           gridGap="20px"
         >
           <Box>
-            <img src="/images/trend_graph.png" />
+            <img src="/images/trend_graph.png" alt="" />
           </Box>
         </Box>
       </Box>

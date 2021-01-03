@@ -58,11 +58,11 @@ const CryptoCard = ({ data }) => {
       >
         {/* horizontal graph */}
         <Box maxWidth="240px">
-          <img src={`/images/${data.graphs.horizontal}`} width="100%" />
+          <img src={`/images/${data.graphs.horizontal}`} width="100%" alt="" />
         </Box>
         {/* vertical graph */}
         <Box maxWidth="90px">
-          <img src={`/images/${data.graphs.vertical}`} width="100%" />
+          <img src={`/images/${data.graphs.vertical}`} width="100%" alt="" />
         </Box>
       </Box>
       {/* right */}
