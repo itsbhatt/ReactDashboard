@@ -1,35 +1,10 @@
 import React from 'react';
-import {
-  Box,
-  makeStyles,
-  MenuItem,
-  Select,
-  Typography,
-} from '@material-ui/core';
+import { Box, MenuItem, Select, Typography } from '@material-ui/core';
 
 import ButtonComp from '../../Global/Button';
 import ToggleButtons from '../../Global/Button/ToggleButton';
 
-const useStyles = makeStyles(() => ({
-  select: {
-    minWidth: '132px',
-    fontSize: '12px',
-    color: '#fff',
-    lineHeight: '16px',
-    '& >div': {
-      padding: '5px 0 3px 12px',
-    },
-    '& >fieldset': {
-      border: '1px solid rgba(102, 110, 121, 0.5)',
-    },
-    '& >svg': {
-      fill: '#666e79',
-    },
-    '&:hover > fieldset': {
-      border: '1px solid rgba(102, 110, 121, 1)',
-    },
-  },
-}));
+import useStyles from './styles';
 
 const Head = () => {
   const classes = useStyles();

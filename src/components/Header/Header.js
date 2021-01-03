@@ -1,17 +1,14 @@
 import React from 'react';
-import { Grid, Box, makeStyles, IconButton, Badge } from '@material-ui/core';
+import { Grid, Box, IconButton, Badge } from '@material-ui/core';
 import ToggleButton from '../Global/Button/ToggleButton';
 
-const useStyles = makeStyles((theme) => ({
-  header: {
-    borderBottom: `2px solid ${theme.palette.secondary.main}`,
-    background: '#272a2d',
-  },
-  badge: {
-    marginLeft: 12,
-    '& span': { minWidth: 16, height: 16, fontSize: 9, padding: 0 },
-  },
-}));
+import useStyles from './styles';
+
+import {
+  buttonData,
+  centerButton,
+  sideButton,
+} from '../../content/header.json';
 
 const Header = () => {
   const classes = useStyles();
@@ -67,25 +64,5 @@ const Header = () => {
     </Box>
   );
 };
-
-const buttonData = [
-  { text: 'Training Mode', value: 'TrainingMode' },
-  { text: 'Live Mode', value: 'LiveMode' },
-];
-
-const centerButton = [
-  { text: 'Show All', value: 'ShowAll' },
-  { text: 'Crypto', value: 'Crypto' },
-  { text: 'Сommodities', value: 'Сommodities' },
-  { text: 'Stock', value: 'Stock' },
-  { text: 'Index', value: 'Index' },
-  { text: 'Currency', value: 'Currency' },
-];
-
-const sideButton = [
-  { name: 'Search', img: 'search.png' },
-  { name: 'Graduating', img: 'graduating.png' },
-  { name: 'Star', img: 'star.png' },
-];
 
 export default Header;

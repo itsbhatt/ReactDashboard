@@ -4,6 +4,8 @@ import { Box } from '@material-ui/core';
 import Head from './Head';
 import CryptoCard from './CryptoCard';
 
+import data from '../../content/crypto_card.json';
+
 const Main = () => {
   return (
     <Box
@@ -23,55 +25,5 @@ const Main = () => {
     </Box>
   );
 };
-
-const data = [
-  {
-    hrs: 'ETH 48 hours',
-    prediction: '2,2x',
-    graphs: {
-      horizontal: 'horizontal_graph.png',
-      vertical: 'vertical_graph.png',
-    },
-    fund: '$ 34,346.00',
-  },
-  {
-    hrs: 'ETH 48 hours',
-    prediction: '2,2x',
-    graphs: {
-      horizontal: 'horizontal_graph.png',
-      vertical: 'vertical_graph.png',
-    },
-    fund: '$ 329,146.00',
-    commits: 2,
-  },
-  {
-    hrs: 'ETH 48 hours',
-    prediction: '2,2x',
-    graphs: {
-      horizontal: 'horizontal_graph.png',
-      vertical: 'vertical_graph.png',
-    },
-    fund: '$ 129,146.00',
-  },
-  {
-    hrs: 'ETH 48 hours',
-    prediction: '2,2x',
-    graphs: {
-      horizontal: 'empty_graph.png',
-      vertical: 'vertical_graph2.png',
-    },
-    fund: '$ 34,346.00',
-  },
-  {
-    hrs: 'ETH 48 hours',
-    prediction: '2,2x',
-    graphs: {
-      horizontal: 'empty_graph.png',
-      vertical: 'empty_vertical_graph.png',
-    },
-    fund: '$ 00.00',
-    disabled: true,
-  },
-];
 
 export default Main;

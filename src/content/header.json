@@ -1,0 +1,19 @@
+{
+  "buttonData": [
+    { "text": "Training Mode", "value": "TrainingMode" },
+    { "text": "Live Mode", "value": "LiveMode" }
+  ],
+  "centerButton": [
+    { "text": "Show All", "value": "ShowAll" },
+    { "text": "Crypto", "value": "Crypto" },
+    { "text": "Сommodities", "value": "Сommodities" },
+    { "text": "Stock", "value": "Stock" },
+    { "text": "Index", "value": "Index" },
+    { "text": "Currency", "value": "Currency" }
+  ],
+  "sideButton": [
+    { "name": "Search", "img": "search.png" },
+    { "name": "Graduating", "img": "graduating.png" },
+    { "name": "Star", "img": "star.png" }
+  ]
+}
