@@ -8,7 +8,7 @@ const useStyles = makeStyles(() => ({
     padding: '4px 32px 15px 15px',
     display: 'grid',
     position: 'relative',
-    gridTemplateColumns: 'auto auto 180px',
+    gridTemplateColumns: '415px auto 180px',
     '& > div': {
       display: 'grid',
     },
