@@ -45,5 +45,9 @@ theme.typography.subtitle1 = {
   color: '#666e79',
   fontSize: '12px',
 };
+theme.typography.h4 = {
+  fontSize: '20px',
+  lineHeight: '24px',
+};
 
 export default theme;

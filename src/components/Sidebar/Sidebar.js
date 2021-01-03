@@ -14,7 +14,13 @@ const Sidebar = () => {
   const classes = useStyles();
 
   return (
-    <Box px="18px" py="32px" maxWidth={260} bgcolor="dark.main">
+    <Box
+      className={classes.sidebar}
+      px="18px"
+      py="32px"
+      maxWidth={260}
+      bgcolor="dark.main"
+    >
       {/* Open Trades  */}
       <Box>
         <Box display="flex" justifyContent="space-between" alignItems="center">
@@ -103,6 +109,17 @@ const Sidebar = () => {
             <Typography component="p" variant="h6">
               +21.5%
             </Typography>
+          </Box>
+        </Box>
+        {/*  */}
+        <Box
+          mt="22px"
+          display="grid"
+          gridTemplateColumns="80px auto"
+          gridGap="20px"
+        >
+          <Box>
+            <img src="/images/trend_graph.png" />
           </Box>
         </Box>
       </Box>

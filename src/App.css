@@ -3,3 +3,20 @@
   color: #ffffff;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button {
+  background: transparent;
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #121212;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}

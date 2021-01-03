@@ -1,6 +1,10 @@
 import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
+  sidebar: {
+    height: '100%',
+    overflowY: 'scroll',
+  },
   button: {
     '& > span': {
       display: 'grid',
@@ -17,7 +21,7 @@ const useStyles = makeStyles(() => ({
   sidebarSubHeading: {
     fontSize: 9,
     lineHeight: '12px',
-    color: '#666E79',
+    color: '#666e79',
     fontWeight: 500,
     marginBottom: 6,
     '& ~ *': {
@@ -25,7 +29,7 @@ const useStyles = makeStyles(() => ({
     },
   },
   divider: {
-    background: '#272A2D',
+    background: '#272a2d',
     margin: '24px 0',
   },
   toggleButton: {

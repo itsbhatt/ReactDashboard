@@ -13,7 +13,8 @@ const App = () => {
       <Box
         display="grid"
         gridTemplateColumns="auto 1fr"
-        minHeight="calc(100vh - 78px)"
+        height="calc(100vh - 78px)"
+        overflow="hidden"
       >
         <Sidebar />
         <Main />
