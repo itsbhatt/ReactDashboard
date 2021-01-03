@@ -44,10 +44,28 @@ const theme = createMuiTheme({
 theme.typography.subtitle1 = {
   color: '#666e79',
   fontSize: '12px',
+  lineHeight: '16px',
+  fontWeight: 500,
+};
+theme.typography.subtitle2 = {
+  color: '#666e79',
+  fontSize: '9px',
+  lineHeight: '12px',
+  fontWeight: 500,
 };
 theme.typography.h4 = {
   fontSize: '20px',
   lineHeight: '24px',
+  fontWeight: 500,
+};
+theme.typography.h5 = {
+  fontSize: '18px',
+  lineHeight: '24px',
+  fontWeight: 500,
+};
+theme.typography.h6 = {
+  fontSize: '14px',
+  lineHeight: '20px',
 };
 
 export default theme;

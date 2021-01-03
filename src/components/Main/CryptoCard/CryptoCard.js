@@ -7,7 +7,11 @@ const CryptoCard = ({ data }) => {
   const classes = useStyles();
 
   return (
-    <Box className={classes.cardContainer}>
+    <Box
+      className={`${classes.cardContainer} ${
+        data.disabled ? classes.disabled : undefined
+      }`}
+    >
       {/* left */}
       <Box gridTemplateColumns="auto auto" py="8px" alignItems="center">
         {/* icon here */}
@@ -18,7 +22,10 @@ const CryptoCard = ({ data }) => {
               <Typography component="p" variant="h4">
                 {data.hrs}
               </Typography>
-              <Typography className={classes.sidebarSubHeading}>
+              <Typography
+                className={classes.sidebarSubHeading}
+                variant="subtitle1"
+              >
                 Crypto
               </Typography>
             </Box>
@@ -37,7 +44,7 @@ const CryptoCard = ({ data }) => {
               {data.prediction}
             </Typography>
           </Box>
-          <Typography className={classes.sidebarSubHeading}>
+          <Typography className={classes.sidebarSubHeading} variant="subtitle1">
             Outcome in 6h 41m
           </Typography>
         </Box>
@@ -63,7 +70,7 @@ const CryptoCard = ({ data }) => {
         <Typography component="p" variant="h4">
           {data.fund}
         </Typography>
-        <Typography className={classes.sidebarSubHeading}>
+        <Typography className={classes.sidebarSubHeading} variant="subtitle1">
           Total commitment funds
         </Typography>
       </Box>

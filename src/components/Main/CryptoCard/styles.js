@@ -13,6 +13,9 @@ const useStyles = makeStyles(() => ({
       display: 'grid',
     },
   },
+  disabled: {
+    opacity: 0.6,
+  },
   cardCenter: {
     display: 'grid',
     paddingLeft: '24px',
@@ -23,10 +26,6 @@ const useStyles = makeStyles(() => ({
     alignContent: 'center',
   },
   sidebarSubHeading: {
-    fontSize: 9,
-    lineHeight: '12px',
-    color: '#666e79',
-    fontWeight: 500,
     marginTop: 6,
   },
   commits: {

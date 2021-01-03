@@ -42,7 +42,10 @@ const Sidebar = () => {
           gridGap="20px"
         >
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Trades in progress
             </Typography>
 
@@ -51,13 +54,16 @@ const Sidebar = () => {
             </Typography>
           </Box>
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Closest outcome
             </Typography>
-            <Typography component="p" variant="h5">
+            <Typography component="p" variant="h4">
               25m 40s
             </Typography>
-            <Typography variant="caption">ETH 48 hour</Typography>
+            <Typography variant="subtitle1">ETH 48 hour</Typography>
           </Box>
         </Box>
       </Box>
@@ -94,19 +100,25 @@ const Sidebar = () => {
           gridGap="20px"
         >
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Total trades
             </Typography>
 
-            <Typography component="p" variant="h6">
+            <Typography component="p" variant="h5">
               245
             </Typography>
           </Box>
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Profit
             </Typography>
-            <Typography component="p" variant="h6">
+            <Typography component="p" variant="h5">
               +21.5%
             </Typography>
           </Box>
@@ -141,13 +153,16 @@ const Sidebar = () => {
         {/*  */}
         <Box mt="22px" display="grid" gridGap="20px">
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Trading
             </Typography>
 
             {/*  */}
             <Box display="flex" justifyContent="space-between">
-              <Typography className={classes.h6} component="p" variant="h6">
+              <Typography className={classes.h6} component="p" variant="h5">
                 $ 34,752.00
               </Typography>
               <Box className={classes.btnContainer}>
@@ -158,7 +173,10 @@ const Sidebar = () => {
             </Box>
           </Box>
           <Box>
-            <Typography className={classes.sidebarSubHeading} variant="h6">
+            <Typography
+              className={classes.sidebarSubHeading}
+              variant="subtitle2"
+            >
               Holding
             </Typography>
 

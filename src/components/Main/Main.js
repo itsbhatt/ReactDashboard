@@ -70,6 +70,7 @@ const data = [
       vertical: 'empty_vertical_graph.png',
     },
     fund: '$ 00.00',
+    disabled: true,
   },
 ];
 
