@@ -5,7 +5,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: '8px',
     background: '#272a2d',
     border: '1px solid #535763',
-    padding: '4px 32px 15px 15px',
+    padding: '4px 32px 4px 15px',
     display: 'grid',
     position: 'relative',
     gridTemplateColumns: '415px auto 180px',
